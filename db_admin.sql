@@ -32,7 +32,7 @@ CREATE TABLE `tbl_users` (
 
 INSERT INTO `tbl_users` (`id`, `name`, `username`, `email`, `password`, `mobile`, `roleid`, `isActive`, `created_at`, `updated_at`) VALUES
 (22, 'Ravi Kumar', 'RaviKumar', 'ravi.kumar@gmail.com', 'e99a18c428cb38d5f260853678922e03abd8331c', '9876543210', 3, 1, NOW(), NOW()),
-(21, 'admin', 'admin', 'admin@gmail.com', 'admin123', '9876543210', 1, 0, NOW(), NOW()),
+(7, 'Admin', 'admin', 'admin@gmail.com', '188000e1f0fb4075ae1c659697b96296f982cdc4', '9756124586', 1, 0, NOW(), NOW()),
 (23, 'Sneha Patel', 'SnehaP', 'sneha.patel@gmail.com', 'ab56b4d92b40713acc5af89985d4b786f780e225', '9123456789', 3, 1, NOW(), NOW()),
 (24, 'Arjun Singh', 'ArjunSingh', 'arjun.singh@gmail.com', '8f14e45fceea167a5a36dedd4bea2543ff190abe', '9988776655', 3, 0, NOW(), NOW()),
 (25, 'Priya Sharma', 'PriyaS', 'priya.sharma@gmail.com', 'b6d767d2f8ed5d21a44b0e5886680cb9ee2b7d04', '9876543211', 2, 1, NOW(), NOW()),
